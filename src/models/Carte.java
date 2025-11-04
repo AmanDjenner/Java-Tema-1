@@ -21,6 +21,15 @@ public class Carte {
         this.inStoc = inStoc;
         this.cantitate = cantitate;
     }
+// Metoda pentru afisarea informatiilor despre carte
+    public void afiseazaInfoCarte() {
+        System.out.println("---> " + titlu + " <---");
+        System.out.println("Autor: " + autor);
+        System.out.println("Pagini: " + pagini);
+        System.out.println("Pret: " + pret);
+        System.out.println("In stoc: " + inStoc);
+        System.out.println("Cantitate: " + cantitate);
+    }
 
     public String getTitlu() {
         return titlu;

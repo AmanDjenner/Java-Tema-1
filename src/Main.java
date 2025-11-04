@@ -25,14 +25,16 @@ public class Main {
         System.err.println("====================");
 
         Carte carte2 = new Carte("1995", "Gheorghi Verdes", 328, 29.99f, true, 10);
-        System.out.println("Cartea nr. 2 : ");
-        System.out.println("====================");
-        System.out.println("Titlu: " + carte2.getTitlu());
-        System.out.println("Autor: " + carte2.getAutor());
-        System.out.println("Pagini: " + carte2.getPagini());
-        System.out.println("Pret: " + carte2.getPret());
-        System.out.println("In stoc: " + carte2.isInStoc());
-        System.out.println("Cantitatea: " + carte2.getCantitate());
+        // System.out.println("Cartea nr. 2 : ");
+        // System.out.println("====================");
+        // System.out.println("Titlu: " + carte2.getTitlu());
+        // System.out.println("Autor: " + carte2.getAutor());
+        // System.out.println("Pagini: " + carte2.getPagini());
+        // System.out.println("Pret: " + carte2.getPret());
+        // System.out.println("In stoc: " + carte2.isInStoc());
+        // System.out.println("Cantitatea: " + carte2.getCantitate());
+        
+        carte2.afiseazaInfoCarte();
 
     }
 }
