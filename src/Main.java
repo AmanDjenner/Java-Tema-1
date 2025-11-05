@@ -8,6 +8,8 @@ public class Main {
 
         Carte carte1 = new Carte();
 //Coment Octavian
+
+        //New comment 123
         System.out.println("====================");
         carte1.setTitlu("Cartea nr. 1");
         carte1.setAutor("Gheorghi Verdes");
