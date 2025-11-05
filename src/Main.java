@@ -10,6 +10,7 @@ public class Main {
 //Coment Octavian
 
         //New comment 123
+//        111111
         System.out.println("====================");
         carte1.setTitlu("Cartea nr. 1");
         carte1.setAutor("Gheorghi Verdes");
