@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         Carte carte1 = new Carte();
-        System.out.println("Cartea nr. 1 :");
+
         System.out.println("====================");
-        carte1.setTitlu("1987");
+        carte1.setTitlu("Cartea nr. 1");
         carte1.setAutor("Gheorghi Verdes");
         carte1.setPagini(328);
         carte1.setPret(39.99f);
@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Cantitatea: " + carte1.getCantitate());
         System.err.println("====================");
 
-        Carte carte2 = new Carte("1995", "Gheorghi Verdes", 328, 29.99f, true, 10);
+        Carte carte2 = new Carte("Cartea nr. 2 :", "Gheorghi Verdes", 328, 29.99f, true, 10);
         // System.out.println("Cartea nr. 2 : ");
         // System.out.println("====================");
         // System.out.println("Titlu: " + carte2.getTitlu());
@@ -33,7 +33,7 @@ public class Main {
         // System.out.println("Pret: " + carte2.getPret());
         // System.out.println("In stoc: " + carte2.isInStoc());
         // System.out.println("Cantitatea: " + carte2.getCantitate());
-        
+
         carte2.afiseazaInfoCarte();
 
     }
